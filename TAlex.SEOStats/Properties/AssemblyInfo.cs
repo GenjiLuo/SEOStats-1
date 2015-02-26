@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("T-Alex Software")]
 [assembly: AssemblyProduct("TAlex.SEOStats")]
-[assembly: AssemblyCopyright("Copyright ©  2013 T-Alex Software")]
+[assembly: AssemblyCopyright("Copyright ©  2015 T-Alex Software")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
