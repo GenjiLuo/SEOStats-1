@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FE53AC
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{78DF22E7-5EC9-46D8-8973-D3509065DFA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TAlex.SEOStats.Tests", "TAlex.SEOStats.Tests\TAlex.SEOStats.Tests.csproj", "{704F33F5-D922-4DAE-AC0A-7FD0AE0FE4D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +25,15 @@ Global
 		{DC071B1D-3A45-410E-A4A2-707BA07BE2D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC071B1D-3A45-410E-A4A2-707BA07BE2D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC071B1D-3A45-410E-A4A2-707BA07BE2D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{704F33F5-D922-4DAE-AC0A-7FD0AE0FE4D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{704F33F5-D922-4DAE-AC0A-7FD0AE0FE4D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{704F33F5-D922-4DAE-AC0A-7FD0AE0FE4D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{704F33F5-D922-4DAE-AC0A-7FD0AE0FE4D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{704F33F5-D922-4DAE-AC0A-7FD0AE0FE4D2} = {78DF22E7-5EC9-46D8-8973-D3509065DFA9}
 	EndGlobalSection
 EndGlobal
