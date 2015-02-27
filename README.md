@@ -5,10 +5,17 @@ Checking of Google PageRank, Alexa rank and etc. for your site.
 [![Build Status](https://travis-ci.org/T-Alex/SEOStats.svg?branch=master)](https://travis-ci.org/T-Alex/SEOStats)
 
 ## Example of usage
+
 Get Google PageRank for ```google.com```
 ```C#
 var statistics = new GoogleStats().GetStats("http://google.com");
 Console.WriteLine(statistics.PageRank);
+```
+
+Get Alexa rank for ```google.com```
+```C#
+var statistics = new AlexaStats().GetStats("http://google.com");
+Console.WriteLine(statistics.TrafficRank);
 ```
 
 ## Get it on NuGet!
