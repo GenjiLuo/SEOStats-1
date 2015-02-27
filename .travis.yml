@@ -2,7 +2,6 @@ language: csharp
 solution: TAlex.SEOStats.sln
 
 install:
-  - nuget restore TAlex.SEOStats.sln
   - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
 script:
   - xbuild /p:Configuration=Release TAlex.SEOStats.sln
