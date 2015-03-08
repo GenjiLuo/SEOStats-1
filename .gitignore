@@ -42,6 +42,7 @@ _ReSharper*/
 
 #Project files
 [Bb]uild/
+_[Bb]uild/
 
 #Subversion files
 .svn
@@ -59,9 +60,3 @@ packages/
 
 # visual studio database projects
 *.dbmdl
-
-# Site content
-Web/Content/[Ii]mages/
-Web/Content/[Dd]ownloads/
-ImageProxy/Images/
-Web\Content\keygenerators*/
