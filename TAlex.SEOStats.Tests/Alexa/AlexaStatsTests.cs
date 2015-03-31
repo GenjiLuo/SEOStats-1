@@ -24,12 +24,10 @@ namespace TAlex.SEOStats.Tests.Alexa
 
         #region GetStats
 
-        [Test]
-        public void GetStats_Domain_Success()
+        [TestCase("http://google.com")]
+        [TestCase("reddit.com")]
+        public void GetStats_Domain_Success(string domain)
         {
-            //arrange
-            const string domain = "http://google.com";
-
             //action
             var actual = Target.GetStats(domain);
 
