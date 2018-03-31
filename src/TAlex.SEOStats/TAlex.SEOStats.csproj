@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net451</TargetFrameworks>
+    <RootNamespace>TAlex.SEOStats</RootNamespace>
+    <AssemblyName>TAlex.SEOStats</AssemblyName>
+    <Product>TAlex.SEOStats</Product>
+    <Version>2.0.0</Version>
+    <Description>SEO statistics library</Description>
+    <PackageTags>SEO Stats Alexa Rank Google PR</PackageTags>
+    <Authors>Alex Titarenko</Authors>
+    <PackageProjectUrl>https://github.com/T-Alex/SEOStats</PackageProjectUrl>
+    <Copyright>Copyright 2018 Alex Titarenko</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+    <NoWarn>1591</NoWarn>
+  </PropertyGroup>
+</Project>
