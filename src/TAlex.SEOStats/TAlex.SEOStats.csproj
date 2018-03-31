@@ -4,9 +4,9 @@
     <RootNamespace>TAlex.SEOStats</RootNamespace>
     <AssemblyName>TAlex.SEOStats</AssemblyName>
     <Product>TAlex.SEOStats</Product>
-    <Version>2.0.0</Version>
+    <Version>2.0.1</Version>
     <Description>SEO statistics library</Description>
-    <PackageTags>SEO Stats Alexa Rank Google PR</PackageTags>
+    <PackageTags>SEO Stats Alexa Rank</PackageTags>
     <Authors>Alex Titarenko</Authors>
     <PackageProjectUrl>https://github.com/T-Alex/SEOStats</PackageProjectUrl>
     <Copyright>Copyright 2018 Alex Titarenko</Copyright>
